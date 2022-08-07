@@ -34,7 +34,7 @@ void displayEvenOdd(struct Node *head)
     {
         if(num%2==0)
         cout<<temp->data<<endl;
-        
+
         temp = temp->next;
         num++;
     }
@@ -65,3 +65,17 @@ int main()
 
     return 0;
 }
+/*
+Sample Input:
+7
+2 1 3 5 6 4 7
+
+Sample Output:
+2
+3
+6
+7
+1
+5
+4
+*/

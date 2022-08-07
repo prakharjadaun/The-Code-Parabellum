@@ -63,3 +63,17 @@ int main()
     display(head);
     return 0;
 }
+
+/*
+Sample Input:
+6
+1 2 3 4 5 6
+
+Sample Output:
+6
+5
+4
+3
+2
+1
+*/

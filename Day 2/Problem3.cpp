@@ -99,3 +99,17 @@ int main()
 
     return 0;
 }
+
+/*
+Sample Input:
+5
+1 2 3 4 5
+2
+
+Expected Output:
+2
+1
+4
+3
+5
+*/
