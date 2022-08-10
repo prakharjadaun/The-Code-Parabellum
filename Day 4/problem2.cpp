@@ -1,11 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-stack<int> stack1;
-stack<int> stack2;
+stack<long long> stack1;
+stack<long long> stack2;
 
 //to push an element into the queue
-void enqueue(int val)
+void enqueue(long long val)
 {
     if(stack1.empty() && stack2.empty())
     {
@@ -35,17 +35,13 @@ void enqueue(int val)
 void dequeue()
 {
     if(stack1.empty())
-    return;
+        return;
     stack1.pop();
 }
 
 //to display the queue
 void display()
 {
-    if(stack1.empty())
-    {
-        return;
-    }
     
     cout<<stack1.top()<<endl;
 }
