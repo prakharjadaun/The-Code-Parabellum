@@ -16,3 +16,14 @@ int truckTour(vector<vector<int>> petrolpumps)
     }
     return index;
 }
+
+/*
+Sample Input:
+3
+1 5
+10 3
+3 4
+
+Sample Output
+1
+*/

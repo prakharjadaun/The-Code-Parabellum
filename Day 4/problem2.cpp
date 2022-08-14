@@ -13,7 +13,6 @@ void enqueue(long long val)
         return;
     }
 
-
     while(!stack1.empty())
     {
         stack2.push(stack1.top());
@@ -70,3 +69,27 @@ int main()
         }
     }
 }
+
+/*
+
+STDIN   Function
+-----   --------
+10      q = 10 (number of queries)
+1 42    1st query, enqueue 42
+2       dequeue front element
+1 14    enqueue 42
+3       print the front element
+1 28    enqueue 28
+3       print the front element
+1 60    enqueue 60
+1 78    enqueue 78
+2       dequeue front element
+2       dequeue front element
+
+Sample Output
+
+14
+14
+*/
+
+
